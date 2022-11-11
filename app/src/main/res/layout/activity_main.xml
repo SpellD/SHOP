@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Rectangle 3 -->
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="803dp"
+        android:layout_height="1286dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="82dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="TODO" />
+
+
+    <!-- Rectangle 5 -->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView9"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/rectangle_5"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/rectangle_5"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/rectangle_5"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/rectangle_5"-->
+    <!--        app:srcCompat="@drawable/rectangle_2"-->
+    <!--        android:elevation="25dp"/>-->
+
+
+    <ImageButton
+        android:id="@+id/my_image_button"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/image"
+        android:elevation="25dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:elevation="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/my_image_button"
+        app:layout_constraintEnd_toEndOf="@+id/my_image_button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/my_image_button"
+        app:layout_constraintTop_toTopOf="@+id/my_image_button"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/red"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:elevation="25dp"
+        android:fontFamily="@font/inter"
+        android:text="Валькнут 5000р"
+        android:textColor="#FFF"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/my_image_button"
+        app:layout_constraintEnd_toEndOf="@+id/my_image_button"
+        app:layout_constraintStart_toStartOf="@+id/my_image_button"
+        app:layout_constraintTop_toTopOf="@+id/my_image_button"
+        app:layout_constraintVertical_bias="1"
+        tools:ignore="MissingConstraints" />
+
+    <!--  2 товар  -->
+
+    <ImageButton
+        android:id="@+id/my_image_button1"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="288dp"
+        android:layout_marginRight="53dp"
+        android:background="@drawable/bs"
+        android:elevation="25dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="DuplicateIds,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:elevation="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/my_image_button1"
+        app:layout_constraintEnd_toEndOf="@+id/my_image_button1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/my_image_button1"
+        app:layout_constraintTop_toTopOf="@+id/my_image_button1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/red"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:elevation="25dp"
+        android:fontFamily="@font/inter"
+        android:text="Черное солнце 7000р"
+        android:textColor="#FFF"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/my_image_button1"
+        app:layout_constraintEnd_toEndOf="@+id/my_image_button1"
+        app:layout_constraintStart_toStartOf="@+id/my_image_button1"
+        app:layout_constraintTop_toTopOf="@+id/my_image_button1"
+        app:layout_constraintVertical_bias="1"
+        tools:ignore="MissingConstraints" />
+
+    <!--  3 товар  -->
+
+    <ImageButton
+        android:id="@+id/my_image_button2"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="431dp"
+        android:background="@drawable/star"
+        android:elevation="25dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="DuplicateIds,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:elevation="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/my_image_button2"
+        app:layout_constraintEnd_toEndOf="@+id/my_image_button2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/my_image_button2"
+        app:layout_constraintTop_toTopOf="@+id/my_image_button2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/red"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:elevation="25dp"
+        android:fontFamily="@font/inter"
+        android:text="Звезда лады 12000р"
+        android:textColor="#FFF"
+        android:textSize="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/my_image_button2"
+        app:layout_constraintEnd_toEndOf="@+id/my_image_button2"
+        app:layout_constraintStart_toStartOf="@+id/my_image_button2"
+        app:layout_constraintTop_toTopOf="@+id/my_image_button2"
+        app:layout_constraintVertical_bias="1"
+        tools:ignore="MissingConstraints" />
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView6"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginBottom="82dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="1"-->
+    <!--        app:srcCompat="@drawable/iconoreder" />-->
+
+
+    <!--            <ImageView-->
+    <!--            android:id="@+id/imageView2"-->
+    <!--            android:layout_width="162dp"-->
+    <!--            android:layout_height="162dp"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.288"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            app:layout_constraintVertical_bias="0.13"-->
+    <!--            app:srcCompat="@drawable/slvn_009" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
