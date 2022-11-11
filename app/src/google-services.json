@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "718838350078",
+    "project_id": "slavic-shop",
+    "storage_bucket": "slavic-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718838350078:android:879003fb42a90ac2a365af",
+        "android_client_info": {
+          "package_name": "com.example.slavicshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718838350078-atq86ocvn09ji8kkasmj4odplafshl93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.slavicshop",
+            "certificate_hash": "03556a93ec2c81ac31f0d29a04d68fdfc7cacb9b"
+          }
+        },
+        {
+          "client_id": "718838350078-p2tfbctg76utt145tdmhn9p79j4ege97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8TPPjhEhHzlqXS_5M3EuMDxcMgCRVzEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718838350078-p2tfbctg76utt145tdmhn9p79j4ege97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
